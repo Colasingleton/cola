@@ -1,9 +1,9 @@
-@media only screen and(max-device-width:480px){
+@media only screen and (max-device-width:480px){
   .head {
-    width:50%;
+    width:350px;
   }
  #background {
-   width:75%;
+   width:400px;
   }
 }
 
