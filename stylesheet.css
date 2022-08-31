@@ -1,4 +1,7 @@
 @media (max-width: 480px) {
+ div, header{
+   width:400px;
+  }
 }
 *{
 Max-width:600px;
