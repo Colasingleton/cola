@@ -1,3 +1,11 @@
+@media only screen and(max-device-width:480px){
+  .head {
+    width:50%;
+  }
+ #background {
+   width:75%;
+  }
+}
 
 *{
 Max-width:600px;
