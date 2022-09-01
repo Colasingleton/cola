@@ -1,15 +1,18 @@
 @media only screen and (max-device-width:900px){
   div{
     width:450px;
-    height:200px;
+    height:300px;
   }
   body{
-    width:100vw;
+    width:75vw;
     height:100vh;
   }
   #background{
     width:500px;
     height:900px;
+  }
+  .head{
+    font-size:60px;
   }
 }
 
