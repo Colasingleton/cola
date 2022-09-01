@@ -8,6 +8,9 @@
     font-size:60px;
   }
 }
+body{
+  width:625px;
+}
 
 *{
 Max-width:600px;
