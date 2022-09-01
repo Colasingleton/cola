@@ -1,7 +1,7 @@
 @media only screen and (max-device-width:900px){
-  div{
-    width:75vw;
-    height:75vh;
+  #background{
+    width:400px;
+    height:700px;
   }
  
   .head{
