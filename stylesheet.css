@@ -9,7 +9,8 @@
   }
 }
 body{
-  width:625px;
+  min-height:100vh;
+  width:100%;
 }
 
 *{
