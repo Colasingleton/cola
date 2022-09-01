@@ -3,7 +3,11 @@
     width:350px;
   }
  #background {
-   width:400px;
+   width:350px;
+   height:800px;
+  }
+ div {
+   width:350px;
    height:800px;
   }
 }
