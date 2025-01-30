@@ -1,27 +1,149 @@
-<doctype html>
-  <html lang="en">
-    <head>
-      <link rel="stylesheet" type="text/css" href="stylesheet.css">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-      <title>Cola</title>
-      <div class="head">Cola Singleton</div>
-     </head>
-     <body background="https://res.cloudinary.com/practicaldev/image/fetch/s--g1HuidbV--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4a6t7pmm323uaz9rv1rf.png">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Cola Singleton</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f5f2;
+            color: #4a4a4a;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 900px;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #b35a5a;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .skills, .certifications {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills span, .certifications span, .linked {
+            background: #d9a6a6;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project-card {
+            background: #f3e0e0;
+            padding: 15px;
+            border-radius: 8px;
+            flex: 1 1 calc(50% - 20px);
+            text-align: center;
+        }
+        .project-card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .projects a {
+
+          color: #b35a5a;
+        }
+        .contact {
+            background: #b35a5a;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cola Singleton | Software Engineer</h1>
        
-    <div id="background">
-   
-      
-    <div class="info" id="about-me">
-        <header><strong>About Me</strong></header>
-        <p>Self studying software engineer loading. I'm passionate and driven to reach my goals. Along the way i'm continuously learning and appreciating the journey. Although this is the road less travelled, it's the one that will take me where I need to go.</p>
+        
+        <h2>About Me</h2>
+        <p>I began my professional journey in business services, where I honed my ability to manage projects, optimize workflows,
+           and collaborate across teams. My roles required strong organizational skills, adaptability, and problem-solving traits 
+           that have seamlessly transitioned into my software engineering career. Whether coordinating workplace operations, 
+           streamlining vendor relationships, or leading teams, I developed a strategic mindset that allows me to approach 
+           technical challenges with efficiency and precision.</p>
+        <p>My experience managing large-scale office transitions and onboarding employees onto various platforms has given me 
+          a deep understanding of user needs and system integration. These experiences have strengthened my ability to analyze 
+          processes, identify inefficiencies, and implement solutions—key skills in software development. Working in fast-paced 
+          environments also taught me how to balance multiple priorities, a crucial asset when writing code, debugging, and 
+          refining applications.</p>
+        <p>As I transitioned into software engineering, I leveraged my problem-solving mindset and attention to detail to 
+          master programming languages like Java, JavaScript, and Python. My background in project coordination has given me 
+          a unique perspective on software development, allowing me to build applications that prioritize usability and efficiency. 
+          With a strong foundation in both front-end and back-end technologies, I am eager to apply my skills to create impactful 
+          software solutions.</p>
+        
+        <h2>Education</h2>
+        <p>Bachelor of Science in Software Engineering | Western Governors University | Expected May 2025</p>
+        
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>JavaScript</span> <span>HTML</span> <span>CSS</span> <span>Java</span> <span>Python</span>
+            <span>Spring</span> <span>Angular</span> <span>MySQL</span> <span>PostgreSQL</span>
         </div>
-        <div class="info" id="experience">
-          <header><strong>My Experience</strong></header>
-          <p>This webpage was created to demonstrate my skill in HTML and CSS. The code written here was created and styled by me. Currently, my focus is on java and I make sure to take any of my free time to sharpen those skills. I also learned some business analytics while earning a Nano Degree from Udacity's Business Analytics program .There we worked with SQL, Excel, Tableau and other business analytics tools. </p>
-    </div><img src="Business Analytics Cert.jpg" alt="cert" width="200px">
-      </div>
-      
-      </div>
-      <body>
-  </html>
+        
+        <h2>Certifications</h2>
+        <div class="certifications">
+          <span><a href="https://www.credly.com/badges/8993ba3d-7bc9-4cd4-ad25-8af368fd29b0/public_url" target="_blank">CompTIA Project+</a></span>
+          <span><a href="https://www.credly.com/badges/7e65bc1c-6357-4a1c-9033-9ff40bb76dd9/public_url" target="_blank">AWS Cloud Practitioner</a></span>
+          <span>ITIL 4 Foundations</span>
+          <span><a href="https://www.credly.com/badges/b5182c93-8fda-4585-a798-95d407178995/public_url" target="_blank">Google IT Support</a></span>
+        </div>
+        
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3><a href="https://colasingleton.github.io/calculator/">Budget Calculator</a></h3>
+                <img src="/images/calculator.png" alt="Image of Budget Calculator">
+                <p>This project is near and desr to me, featuring my first use of JavaScript for a personal fun project. 
+                  the object is to return your spending budget for the month given your total monthly budget. This small calcualator 
+                  is a work in progress and will hopefully be a part of a much larger application.
+                </p>
+            </div>
+            <div class="project-card">
+                <h3><a href="https://colasingleton.github.io/UI-design/">UI Design project</a></h3>
+                <img src="/images/paradigm.png" alt="Image of Paradigm Pets">
+                <p>I've decided to feature this project because of how it handles multi level navigation. This project is a prototype and meant to showcase it's navigational elements. </p>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>GitHub: <a href="https://github.com/Colasingleton?tab=repositories">Repositories</a></p>
+            <p>Email: colasingleton@gmail.com</p>
+            <p>Social: <a class="linked" href="https://www.linkedin.com/in/colasingleton/">LinkedIn</a></p>
+        </div>
+    </div>
+</body>
+</html>
